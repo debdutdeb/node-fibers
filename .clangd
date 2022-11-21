@@ -1,0 +1,2 @@
+CompileFlags:
+	Add: [-I/Users/debdut/Documents/Repos/node-fibers/src, -I/Users/debdut/.meteor/packages/meteor-tool/.2.7.3.1liadnk.e36f++os.osx.arm64+web.browser+web.browser.legacy+web.cordova/mt-os.osx.arm64/dev_bundle/include/node, -std=c++17, -DCORO_ASM, -DCORO_UCONTEXT, -D_XOPEN_SOURCE]
