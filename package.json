@@ -1,6 +1,6 @@
 {
 	"name": "@debdutdeb/node-fibers",
-	"version": "5.0.2",
+	"version": "5.0.3",
 	"description": "Cooperative multi-tasking for Javascript",
 	"keywords": [
 		"fiber",
@@ -13,16 +13,16 @@
 		"future",
 		"promise"
 	],
-	"homepage": "https://github.com/laverdet/node-fibers",
-	"author": "Marcel Laverdet <marcel@laverdet.com> (https://github.com/laverdet/)",
+	"homepage": "https://github.com/debdutdeb/node-fibers",
+	"author": "Debdut C. <debdutdeb@outlook.com> (https://github.com/debdutdeb/)",
 	"main": "fibers",
 	"scripts": {
-		"install": "which node-gyp > /tmp/env",
+		"install": "node build.js",
 		"test": "node test.js || nodejs test.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/laverdet/node-fibers.git"
+		"url": "git://github.com/debdutdeb/node-fibers.git"
 	},
 	"license": "MIT",
 	"engines": {

@@ -1,3 +1,5 @@
+**I, Debdut, am not the creator of this project, neither a maintainer. This is just a fork that adds some dependency/build step modifications to fix my own work. That's all.**
+
 **NOTE OF OBSOLESCENCE** -- The author of this project recommends you avoid its use if possible. The
 original version of this module targeted nodejs v0.1.x in early 2011 when JavaScript on the server
 looked a lot different. Since then
