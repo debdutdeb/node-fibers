@@ -1,5 +1,5 @@
 {
-	"name": "fibers",
+	"name": "@debdutdeb/node-fibers",
 	"version": "5.0.2",
 	"description": "Cooperative multi-tasking for Javascript",
 	"keywords": [
@@ -17,7 +17,7 @@
 	"author": "Marcel Laverdet <marcel@laverdet.com> (https://github.com/laverdet/)",
 	"main": "fibers",
 	"scripts": {
-		"install": "node build.js || nodejs build.js",
+		"install": "which node-gyp > /tmp/env",
 		"test": "node test.js || nodejs test.js"
 	},
 	"repository": {
