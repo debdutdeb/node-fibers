@@ -115,11 +115,10 @@ function afterBuild() {
 }
 
 function verifyNodeGyp() {
-	cp.spawnSync('npm', ['install', 'node-gyp@9.4.1', '-g'], {
+	const x = cp.spawnSync('npm', ['install', 'node-gyp@9.4.1', '-g'], {
 		stdio: [process.stdin, process.stdout, process.stderr]
-	}).on('exit', (err) => {
-		if (err) {
-			console.error(err);
-		}
-	});;
+	});
+	if (x.stderr && x.stderr.toString().trim()) {
+		process.exit(1);
+	}
 }
